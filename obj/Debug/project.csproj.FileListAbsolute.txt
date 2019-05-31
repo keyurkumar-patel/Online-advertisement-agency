@@ -1,0 +1,43 @@
+F:\project\project\project\bin\project.dll
+F:\project\project\project\bin\project.pdb
+F:\project\project\project\obj\Debug\ResolveAssemblyReference.cache
+F:\project\project\project\obj\Debug\project.dll
+F:\project\project\project\obj\Debug\project.pdb
+C:\Users\Mona\Documents\11feb\project\project\bin\project.dll
+C:\Users\Mona\Documents\11feb\project\project\bin\project.pdb
+C:\Users\Mona\Documents\11feb\project\project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mona\Documents\11feb\project\project\obj\Debug\project.dll
+C:\Users\Mona\Documents\11feb\project\project\obj\Debug\project.pdb
+D:\11feb\project\project\bin\project.dll
+D:\11feb\project\project\bin\project.pdb
+D:\11feb\project\project\obj\Debug\ResolveAssemblyReference.cache
+D:\11feb\project\project\obj\Debug\project.dll
+D:\11feb\project\project\obj\Debug\project.pdb
+D:\project\project\project\bin\project.dll
+D:\project\project\project\bin\project.pdb
+D:\project\project\project\obj\Debug\ResolveAssemblyReference.cache
+D:\project\project\project\obj\Debug\project.dll
+D:\project\project\project\obj\Debug\project.pdb
+C:\Users\bhakti\Documents\Image\project\project\bin\project.dll
+C:\Users\bhakti\Documents\Image\project\project\bin\project.pdb
+C:\Users\bhakti\Documents\Image\project\project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bhakti\Documents\Image\project\project\obj\Debug\project.dll
+C:\Users\bhakti\Documents\Image\project\project\obj\Debug\project.pdb
+C:\Users\bhakti\Desktop\project\project\bin\project.dll
+C:\Users\bhakti\Desktop\project\project\bin\project.pdb
+C:\Users\bhakti\Desktop\project\project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bhakti\Desktop\project\project\obj\Debug\project.dll
+C:\Users\bhakti\Desktop\project\project\obj\Debug\project.pdb
+C:\Users\bhakti\Documents\project\project\bin\project.dll
+C:\Users\bhakti\Documents\project\project\bin\project.pdb
+C:\Users\bhakti\Documents\project\project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bhakti\Documents\project\project\obj\Debug\project.dll
+C:\Users\bhakti\Documents\project\project\obj\Debug\project.pdb
+D:\project\project\obj\Debug\ResolveAssemblyReference.cache
+D:\project\project\obj\Debug\project.dll
+D:\SUBJECT\Sem-6\HD proj\bhakti\project\project\obj\Debug\ResolveAssemblyReference.cache
+D:\SUBJECT\Sem-6\HD proj\bhakti\project\project\obj\Debug\project.dll
+J:\project\online news advertisement\project\obj\Debug\ResolveAssemblyReference.cache
+J:\project\online news advertisement\project\obj\Debug\project.dll
+F:\Project\New folder\project\online news advertisement\project\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\New folder\project\online news advertisement\project\obj\Debug\project.dll
