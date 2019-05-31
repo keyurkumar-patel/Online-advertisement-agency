@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="project.Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="ddsmoothmenu.js">
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+	<script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript">
+        var flashvars = {};
+        flashvars.xml_file = "photo_list.xml";
+        var params = {};
+        params.wmode = "transparent";
+        var attributes = {};
+        attributes.id = "slider";
+        swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "900", "290", "9.0.0", false, flashvars, params, attributes);
+    </script>
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+    
+    <div id="templatemo_wrapper_outter">
+<div id="templatemo_wrapper_inner">
+<div id="templatemo_wrapper">
+
+	<div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+            <li><a href="Home.aspx" class="selected">Home</a></li>
+            
+            <li><a href="register.aspx">Registration</a></li>
+            <li><a href="services.aspx">services</a></li>
+            <li><a href="about.aspx">About</a></li>
+            <li><a href="contact.aspx">Contact</a></li>
+        </ul>
+   
+        <br style="clear: left" />
+    </div><!-- end of templatemo_menu -->
+     <div id="templatemo_header">
+    	<div id="site_title"><h1><a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a></h1></div>
+	</div> <!-- end of header -->
+    <!-- end of header -->
+  <%--  
+    <div id="templatemo_main_top">--%>
+    
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+   <%-- </div>--%>
+                <!-- end of templatemo main -->
+    <div id="templatemo_main_bottom"></div>
+    
+    <div id="templatemo_bottom">
+     	<div class="col_allw300">
+        	<h4>Pages</h4>
+            <ul class="bottom_list">
+            	<li><a href="home.aspx">Home</a></li>
+                <li><a href="register.aspx">Register</a></li>
+                <li><a href="blog.aspx">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+        </div>
+   	  <div class="col_allw300">
+        	<h4>Useful Articles</h4>
+            <ul class="bottom_list">
+            	<li><a href="#">Donec placerat odio at leo suscipit hendrerit</a></li>
+            	<li><a href="#">Proin vitae magna eget sem mattis</a></li>
+            	<li><a href="#">Integer elit massa, pulvinar non commodo</a></li>
+           	  	<li><a href="#">Phasellus cursus nulla in condimentum</a></li>                                                
+		  	</ul>
+        </div>
+    	<div class="cleaner"></div>
+    </div>    
+    
+    <div id="templatemo_footer">
+        Copyright © 2048 <a href="#">Your Company Name</a> | 
+        <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by 
+        <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+        <div class="cleaner"></div>
+    </div>
+	
+</div>
+<div class="cleaner"></div>    
+</div>	
+</div>
+    
+    
+</body>
+</html>

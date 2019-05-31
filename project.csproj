@@ -1,0 +1,482 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23388995-AE4E-479C-B7F4-A2CD2D0BAAED}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project</RootNamespace>
+    <AssemblyName>project</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminbanner.aspx.cs">
+      <DependentUpon>adminbanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbanner.aspx.designer.cs">
+      <DependentUpon>adminbanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admininternet.aspx.cs">
+      <DependentUpon>admininternet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admininternet.aspx.designer.cs">
+      <DependentUpon>admininternet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.aspx.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminmagazine.aspx.cs">
+      <DependentUpon>adminmagazine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmagazine.aspx.designer.cs">
+      <DependentUpon>adminmagazine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminmaster.Master.cs">
+      <DependentUpon>adminmaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmaster.Master.designer.cs">
+      <DependentUpon>adminmaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="adminnewspaper.aspx.cs">
+      <DependentUpon>adminnewspaper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminnewspaper.aspx.designer.cs">
+      <DependentUpon>adminnewspaper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adminpage.aspx.cs">
+      <DependentUpon>Adminpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminpage.aspx.designer.cs">
+      <DependentUpon>Adminpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminradio.aspx.cs">
+      <DependentUpon>adminradio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminradio.aspx.designer.cs">
+      <DependentUpon>adminradio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admintelevision.aspx.cs">
+      <DependentUpon>admintelevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admintelevision.aspx.designer.cs">
+      <DependentUpon>admintelevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Banner.aspx.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Banner.aspx.designer.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internet.aspx.cs">
+      <DependentUpon>Internet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internet.aspx.designer.cs">
+      <DependentUpon>Internet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="magazine.aspx.cs">
+      <DependentUpon>magazine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="magazine.aspx.designer.cs">
+      <DependentUpon>magazine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Newspaper.aspx.cs">
+      <DependentUpon>Newspaper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Newspaper.aspx.designer.cs">
+      <DependentUpon>Newspaper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mediaselection.aspx.cs">
+      <DependentUpon>Mediaselection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mediaselection.aspx.designer.cs">
+      <DependentUpon>Mediaselection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Radio.aspx.cs">
+      <DependentUpon>Radio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Radio.aspx.designer.cs">
+      <DependentUpon>Radio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services.aspx.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services.aspx.designer.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sucessful register.aspx.cs">
+      <DependentUpon>sucessful register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sucessful register.aspx.designer.cs">
+      <DependentUpon>sucessful register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Television.aspx.cs">
+      <DependentUpon>Television.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Television.aspx.designer.cs">
+      <DependentUpon>Television.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banner.aspx" />
+    <Content Include="css\ddsmoothmenu.css" />
+    <Content Include="css\jquery.lightbox-0.5.css" />
+    <Content Include="css\svwp_style.css" />
+    <Content Include="css\templatemo_style.css" />
+    <Content Include="css_pirobox\bg_tms.jpg" />
+    <Content Include="css_pirobox\black\ajax-loader_b.gif" />
+    <Content Include="css_pirobox\black\bg_load.gif" />
+    <Content Include="css_pirobox\black\bg_load.png" />
+    <Content Include="css_pirobox\black\b_c.png" />
+    <Content Include="css_pirobox\black\b_l.png" />
+    <Content Include="css_pirobox\black\b_r.png" />
+    <Content Include="css_pirobox\black\c.png" />
+    <Content Include="css_pirobox\black\close_btn3.png" />
+    <Content Include="css_pirobox\black\c_l.png" />
+    <Content Include="css_pirobox\black\c_r.png" />
+    <Content Include="css_pirobox\black\img_bg.png" />
+    <Content Include="css_pirobox\black\link_out.gif" />
+    <Content Include="css_pirobox\black\link_out.png" />
+    <Content Include="css_pirobox\black\link_out_h.gif" />
+    <Content Include="css_pirobox\black\link_out_h.png" />
+    <Content Include="css_pirobox\black\next.png" />
+    <Content Include="css_pirobox\black\nextoutside.png" />
+    <Content Include="css_pirobox\black\nextoutside_h.png" />
+    <Content Include="css_pirobox\black\next_h.png" />
+    <Content Include="css_pirobox\black\pause.png" />
+    <Content Include="css_pirobox\black\pause_h.png" />
+    <Content Include="css_pirobox\black\play.png" />
+    <Content Include="css_pirobox\black\play_h.png" />
+    <Content Include="css_pirobox\black\prev.png" />
+    <Content Include="css_pirobox\black\prevoutside.png" />
+    <Content Include="css_pirobox\black\prevoutside_h.png" />
+    <Content Include="css_pirobox\black\prev_h.png" />
+    <Content Include="css_pirobox\black\style.css" />
+    <Content Include="css_pirobox\black\t_c.png" />
+    <Content Include="css_pirobox\black\t_l.png" />
+    <Content Include="css_pirobox\black\t_r.png" />
+    <Content Include="css_pirobox\css_page.css" />
+    <Content Include="css_pirobox\shadow\ajax-loader_b.gif" />
+    <Content Include="css_pirobox\shadow\bg_load.gif" />
+    <Content Include="css_pirobox\shadow\bg_load.png" />
+    <Content Include="css_pirobox\shadow\b_c.png" />
+    <Content Include="css_pirobox\shadow\b_l.png" />
+    <Content Include="css_pirobox\shadow\b_r.png" />
+    <Content Include="css_pirobox\shadow\close_btn3.png" />
+    <Content Include="css_pirobox\shadow\c_l.png" />
+    <Content Include="css_pirobox\shadow\c_r.png" />
+    <Content Include="css_pirobox\shadow\img_bg.png" />
+    <Content Include="css_pirobox\shadow\link_out.gif" />
+    <Content Include="css_pirobox\shadow\link_out.png" />
+    <Content Include="css_pirobox\shadow\link_out_h.gif" />
+    <Content Include="css_pirobox\shadow\link_out_h.png" />
+    <Content Include="css_pirobox\shadow\next.png" />
+    <Content Include="css_pirobox\shadow\nextoutside.png" />
+    <Content Include="css_pirobox\shadow\nextoutside_h.png" />
+    <Content Include="css_pirobox\shadow\next_h.png" />
+    <Content Include="css_pirobox\shadow\pause.png" />
+    <Content Include="css_pirobox\shadow\pause_h.png" />
+    <Content Include="css_pirobox\shadow\play.png" />
+    <Content Include="css_pirobox\shadow\play_h.png" />
+    <Content Include="css_pirobox\shadow\prev.png" />
+    <Content Include="css_pirobox\shadow\prevoutside.png" />
+    <Content Include="css_pirobox\shadow\prevoutside_h.png" />
+    <Content Include="css_pirobox\shadow\prev_h.png" />
+    <Content Include="css_pirobox\shadow\style.css" />
+    <Content Include="css_pirobox\shadow\t_c.png" />
+    <Content Include="css_pirobox\shadow\t_l.png" />
+    <Content Include="css_pirobox\shadow\t_r.png" />
+    <Content Include="css_pirobox\shad_bg.jpg" />
+    <Content Include="css_pirobox\white\ajax-loader_b.gif" />
+    <Content Include="css_pirobox\white\ajax-loader_w.gif" />
+    <Content Include="css_pirobox\white\bg_load.gif" />
+    <Content Include="css_pirobox\white\bg_load.png" />
+    <Content Include="css_pirobox\white\bg_load_w.png" />
+    <Content Include="css_pirobox\white\b_c.png" />
+    <Content Include="css_pirobox\white\b_l.png" />
+    <Content Include="css_pirobox\white\b_r.png" />
+    <Content Include="css_pirobox\white\c.png" />
+    <Content Include="css_pirobox\white\close_btn3.png" />
+    <Content Include="css_pirobox\white\credits_bg.png" />
+    <Content Include="css_pirobox\white\c_l.png" />
+    <Content Include="css_pirobox\white\c_r.png" />
+    <Content Include="css_pirobox\white\img_bg.png" />
+    <Content Include="css_pirobox\white\link_out.gif" />
+    <Content Include="css_pirobox\white\link_out.png" />
+    <Content Include="css_pirobox\white\link_out_h.gif" />
+    <Content Include="css_pirobox\white\link_out_h.png" />
+    <Content Include="css_pirobox\white\next.png" />
+    <Content Include="css_pirobox\white\nextoutside.png" />
+    <Content Include="css_pirobox\white\nextoutside_h.png" />
+    <Content Include="css_pirobox\white\next_h.png" />
+    <Content Include="css_pirobox\white\pause.png" />
+    <Content Include="css_pirobox\white\pause_h.png" />
+    <Content Include="css_pirobox\white\pirobox_down.png" />
+    <Content Include="css_pirobox\white\play.png" />
+    <Content Include="css_pirobox\white\play_h.png" />
+    <Content Include="css_pirobox\white\prev.png" />
+    <Content Include="css_pirobox\white\prevoutside.png" />
+    <Content Include="css_pirobox\white\prevoutside_h.png" />
+    <Content Include="css_pirobox\white\prev_h.png" />
+    <Content Include="css_pirobox\white\style.css" />
+    <Content Include="css_pirobox\white\t_c.png" />
+    <Content Include="css_pirobox\white\t_l.png" />
+    <Content Include="css_pirobox\white\t_r.png" />
+    <Content Include="ddsmoothmenu.css" />
+    <Content Include="ddsmoothmenu.js" />
+    <Content Include="flash_slider.html" />
+    <Content Include="flash_slider.swf" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\lightbox-blank.gif" />
+    <Content Include="images\lightbox-btn-close.gif" />
+    <Content Include="images\lightbox-ico-loading.gif" />
+    <Content Include="images\map_big.jpg" />
+    <Content Include="images\map_thumb.jpg" />
+    <Content Include="images\portfolio\image_01.jpg" />
+    <Content Include="images\portfolio\image_01_b.jpg" />
+    <Content Include="images\portfolio\image_02.jpg" />
+    <Content Include="images\portfolio\image_02_b.jpg" />
+    <Content Include="images\portfolio\image_03.jpg" />
+    <Content Include="images\portfolio\image_03_b.jpg" />
+    <Content Include="images\slider\photo_900x290_02.jpg" />
+    <Content Include="images\slider\photo_900x290_03.jpg" />
+    <Content Include="images\slider\photo_900x290_04.jpg" />
+    <Content Include="images\slider\photo_900x290_05.jpg" />
+    <Content Include="images\templatemo_body.jpg" />
+    <Content Include="images\templatemo_body_bottom.jpg" />
+    <Content Include="images\templatemo_body_top.jpg" />
+    <Content Include="images\templatemo_comment.jpg" />
+    <Content Include="images\templatemo_comment.png" />
+    <Content Include="images\templatemo_content.png" />
+    <Content Include="images\templatemo_content_bottom.png" />
+    <Content Include="images\templatemo_content_top.png" />
+    <Content Include="images\templatemo_content_top_sb.png" />
+    <Content Include="images\templatemo_image_01.jpg" />
+    <Content Include="images\templatemo_image_02.jpg" />
+    <Content Include="images\templatemo_image_03.jpg" />
+    <Content Include="images\templatemo_list.png" />
+    <Content Include="images\templatemo_logo.png" />
+    <Content Include="images\templatemo_logo_PNG_source.png" />
+    <Content Include="images\templatemo_menu_hover.png" />
+    <Content Include="images\templatemo_more.png" />
+    <Content Include="Internet.aspx" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.lightbox-0.5.js" />
+    <Content Include="js\jquery.lightbox-0.5.min.js" />
+    <Content Include="js\jquery.lightbox-0.5.pack.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\piroBox.1_2.js" />
+    <Content Include="js\piroBox.1_2_min.js" />
+    <Content Include="js\swfobject.js" />
+    <Content Include="magazine.aspx" />
+    <Content Include="Master.Master" />
+    <Content Include="Newspaper.aspx" />
+    <Content Include="photo_list.xml" />
+    <Content Include="Radio.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="scripts\ddsmoothmenu.css" />
+    <Content Include="scripts\ddsmoothmenu.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\jquery.lightbox-0.5.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\mootools-1.2-more.js" />
+    <Content Include="scripts\mootools-1.2.1-core.js" />
+    <Content Include="scripts\piroBox.1_2.js" />
+    <Content Include="scripts\slideitmoo-1.1.js" />
+    <Content Include="slider_style.css" />
+    <Content Include="stylesheet\styles.css" />
+    <Content Include="sucessful register.aspx" />
+    <Content Include="Television.aspx" />
+    <Content Include="templatemo_style.css" />
+    <Content Include="Mediaselection.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="adminbanner.aspx" />
+    <Content Include="admininternet.aspx" />
+    <Content Include="adminlogin.aspx" />
+    <Content Include="adminmagazine.aspx" />
+    <Content Include="adminmaster.Master" />
+    <Content Include="adminnewspaper.aspx" />
+    <Content Include="Adminpage.aspx" />
+    <Content Include="adminradio.aspx" />
+    <Content Include="admintelevision.aspx" />
+    <Content Include="App_Data\sample.mdf">
+    </Content>
+    <Content Include="App_Data\sample_log.ldf">
+      <DependentUpon>sample.mdf</DependentUpon>
+    </Content>
+    <Content Include="contact.aspx" />
+    <Content Include="images\about.jpg" />
+    <Content Include="images\adminlogin.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\contact.jpg" />
+    <Content Include="images\icon-01.jpg" />
+    <Content Include="images\icon-02.jpg" />
+    <Content Include="images\icon-03.jpg" />
+    <Content Include="images\icon-04.jpg" />
+    <Content Include="images\icon-05.jpg" />
+    <Content Include="images\icon-06.png" />
+    <Content Include="images\internet.jpg" />
+    <Content Include="images\magazine.jpg" />
+    <Content Include="images\media\1.jpg" />
+    <Content Include="images\media\2.jpg" />
+    <Content Include="images\media\3.jpg" />
+    <Content Include="images\media\4.jpg" />
+    <Content Include="images\media\b1.jpg" />
+    <Content Include="images\media\b2.jpg" />
+    <Content Include="images\media\b3.jpg" />
+    <Content Include="images\media\b4.jpg" />
+    <Content Include="images\media\i1.jpg" />
+    <Content Include="images\media\i2.jpg" />
+    <Content Include="images\media\i3.jpg" />
+    <Content Include="images\media\i4.jpg" />
+    <Content Include="images\media\m1.jpg" />
+    <Content Include="images\media\m2.jpg" />
+    <Content Include="images\media\m3.jpg" />
+    <Content Include="images\media\m4.jpg" />
+    <Content Include="images\media\n1.jpg" />
+    <Content Include="images\media\n2.jpg" />
+    <Content Include="images\media\n3.jpg" />
+    <Content Include="images\media\n4.jpg" />
+    <Content Include="images\media\r1.jpg" />
+    <Content Include="images\media\r2.jpg" />
+    <Content Include="images\media\r3.jpg" />
+    <Content Include="images\media\r4.jpg" />
+    <Content Include="images\newspaper.jpg" />
+    <Content Include="images\Radio.jpg" />
+    <Content Include="images\signin.gif" />
+    <Content Include="images\signout.jpg" />
+    <Content Include="images\slider\photo_900x290_01.jpg" />
+    <Content Include="images\slider\photo_900x290_06.jpg" />
+    <Content Include="images\television.jpg" />
+    <Content Include="services.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52996</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
